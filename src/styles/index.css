@@ -1,12 +1,14 @@
+.container {
+    justify-content: center;
+    display: flex;
+}
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.traffic-container {
+    background-color: black;
+    border-radius: 7px;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}

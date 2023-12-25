@@ -12,3 +12,31 @@
     display: flex;
     flex-direction: column;
 }
+
+.red {
+    background-color: red;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 125px;
+    height: 125px;
+    border-Radius: 50%;
+    margin: 10px;
+}
+
+.green {
+    background-color: green;
+    width: 125px;
+    height: 125px;
+    border-Radius: 50%;
+    margin: auto;
+}
+
+.light-active {
+    box-shadow: 0 0 20px #4f9;
+}

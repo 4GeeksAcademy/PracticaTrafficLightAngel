@@ -1,16 +1,24 @@
-.container {
-    justify-content: center;
-    display: flex;
+
+
+.palo-traffic {
+    background-color: black;
+    border: 2px solid black;
+    width: 10px;
+    height: 120px;
+    margin: 0px auto;
 }
 
-
 .traffic-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px auto;
     background-color: black;
     border-radius: 7px;
     padding: 10px;
     gap: 10px;
-    display: flex;
     flex-direction: column;
+    width: 150px;
 }
 
 .red {
@@ -34,9 +42,9 @@
     width: 125px;
     height: 125px;
     border-Radius: 50%;
-    margin: auto;
+    margin: 10px;
 }
 
 .light-active {
-    box-shadow: 0 0 20px #4f9;
+    box-shadow: 0 0 70px #4f9;
 }

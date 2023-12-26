@@ -10,6 +10,7 @@ const TrafficLight = () => {
 
   return (
     <div className="container">
+      <div className="palo-traffic"></div>
       <div className="traffic-container">
         <div className={`red ${selectColor === "red" ? "light-active" : ""}`}
           onClick={() => setSelectedColor("red")}>
